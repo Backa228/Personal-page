@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "Plus Jakarta Sans";
+
 }
 
 body {
@@ -12,7 +14,6 @@ body {
     align-items: center;
 }
 
-/* Главный блок */
 .container {
     width: 80%;
     background: white;
@@ -75,7 +76,6 @@ body {
     border-radius: 10px;
 }
 
-/* Ценовая таблица */
 .pricing-section {
     text-align: center;
     margin: 50px 0;
